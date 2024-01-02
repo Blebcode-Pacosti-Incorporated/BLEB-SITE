@@ -6,7 +6,6 @@ import RegisterPage from "./RegisterPage";
 import ForgotPage from "./ForgotPage";
 
 export default function Messenger () {
-    console.log("HUY")
     return (
         <div className="Messenger">
             <Routes defaultElement={<MessengerPage />}>
@@ -19,13 +18,12 @@ export default function Messenger () {
 }
 
 function Routes ({ defaultElement, children }) {
-    children.map(({ path, element }) => {
-        if (window.location.pathname === path)
+    for(let child of children)
+        if (window.location.pathname === child.props.path)
             return element
-    })
     return defaultElement
-
 }
+
 function Route ({ path, element }) {
     return element
 }
