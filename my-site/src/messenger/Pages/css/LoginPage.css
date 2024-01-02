@@ -28,11 +28,13 @@
     padding: 11px 21px;
     box-sizing: border-box;
     outline: none;
-    margin-bottom: 20px;
     font-size: 20px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
+  }
+  .Input ~ .Input {
+    margin-bottom: 20px;
   }
   .Input:not(:empty)::before {
     display: none;
