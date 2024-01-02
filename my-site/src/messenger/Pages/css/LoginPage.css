@@ -44,3 +44,20 @@
     content: attr(placeholder);
     color: #A9A9A9;
   }
+
+  .Button {
+    position: relative;
+    padding: 8px 65px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    background-color: #25A558;
+    user-select: none;
+    cursor: pointer;
+  }
+
+  .Button:hover {
+    filter: brightness(1.05);
+  }
+  .Button:active {
+    filter: brightness(0.95);
+  }

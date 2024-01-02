@@ -7,6 +7,7 @@ export default function LoginPage () {
             <center><div className='Title'>Вход</div></center>
             <div className='Input' placeholder="E-mail" contentEditable></div>
             <div className='Input' placeholder="Пароль" contentEditable></div>
+            <div className='Button'>Войти</div>
         </div>
     )
 }
