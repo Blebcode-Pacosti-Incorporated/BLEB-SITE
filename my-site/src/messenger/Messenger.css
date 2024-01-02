@@ -1,7 +1,7 @@
 .Messenger {
     position: relative;
-    width: 100%;
+    width: 100vw;
     box-sizing: border-box;
     background: whitesmoke;
-    min-height: 100vh;
+    height: 100vh;
 }
