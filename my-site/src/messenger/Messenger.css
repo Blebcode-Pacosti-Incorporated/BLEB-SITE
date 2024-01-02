@@ -5,4 +5,5 @@
     box-sizing: border-box;
     background: whitesmoke;
     overflow: hidden;
+    background: linear-gradient(90deg, var(--color-primary), var(--color-secondary));
 }

@@ -1,9 +1,9 @@
 import './Messenger.css';
 
-import MessengerPage from "./MessengerPage";
-import LoginPage from "./LoginPage";
-import RegisterPage from "./RegisterPage";
-import ForgotPage from "./ForgotPage";
+import MessengerPage from "./Pages/MessengerPage";
+import LoginPage from "./Pages/LoginPage";
+import RegisterPage from "./Pages/RegisterPage";
+import ForgotPage from "./Pages/ForgotPage";
 
 export default function Messenger () {
     return (
