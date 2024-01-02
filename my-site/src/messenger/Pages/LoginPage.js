@@ -18,10 +18,9 @@ export default function LoginPage () {
 }
 
 function Link ({ href, children }) {
-    
     return (
         <div className='Link' onClick={() => {
-            history.pushState(null, null, href)
+           window.history.pushState(null, null, href)
         }}>
             {children}
         </div>
