@@ -7,7 +7,7 @@ import ForgotPage from "./Pages/ForgotPage";
 
 export default function Messenger () {
     return (
-        <div className="Messenger" data-name="Messenger">
+        <div className="Messenger" data-name="Blebsenger">
             <Routes defaultElement={<MessengerPage />}>
                 <Route path="/login" element={<LoginPage />} />
                 <Route path="/register" element={<RegisterPage />} />
