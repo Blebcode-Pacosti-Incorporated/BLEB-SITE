@@ -49,9 +49,8 @@
 
   .Button {
     position: relative;
-    display: inline;
     padding: 8px 65px;
-    margin: 21px 0;
+    margin: 21px 100px;
     border-radius: 10px;
     box-sizing: border-box;
     background-color: #25A558;
