@@ -19,12 +19,11 @@ export default function LoginPage () {
 }
 
 function Link ({ href, children }) {
-    const navigate = useNavigate()
+    
     return (
-        <div 
-            className='Link' 
-            onClick={ () => {navigate(href)} }
-        >
+        <div className='Link' onClick={() => {
+            history.pushState(null, null, href)
+        }}>
             {children}
         </div>
     )
