@@ -33,7 +33,7 @@
     font-weight: 500;
     line-height: normal;
   }
-  .Input ~ .Input {
+  .Input:first-of-type {
     margin-bottom: 20px;
   }
   .Input:not(:empty)::before {
@@ -51,6 +51,7 @@
     position: relative;
     display: inline;
     padding: 8px 65px;
+    margin: 21px 0;
     border-radius: 10px;
     box-sizing: border-box;
     background-color: #25A558;
