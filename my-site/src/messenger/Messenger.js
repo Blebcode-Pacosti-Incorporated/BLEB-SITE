@@ -10,14 +10,12 @@ export default function Messenger () {
     console.log("HUY")
     return (
         <div className="Messenger">
-            <BrowserRouter>
                 <Routes>
-                    <Route path="/*" element={<MessengerPage />} />
+                    <Route path="*" element={<MessengerPage />} />
                     <Route path="/login" element={<LoginPage />} />
                     <Route path="/register" element={<RegisterPage />} />
                     <Route path="/forgot-password" element={<ForgotPage />} />
                 </Routes>
-            </BrowserRouter>
         </div>
     )
 }
