@@ -3,4 +3,5 @@
     width: 100%;
     box-sizing: border-box;
     background: whitesmoke;
+    min-height: 100vh;
 }
