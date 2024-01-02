@@ -20,7 +20,7 @@ export default function Messenger () {
 function Routes ({ defaultElement, children }) {
     for(let child of children)
         if (window.location.pathname === child.props.path)
-            return element
+            return child.props.element
     return defaultElement
 }
 
