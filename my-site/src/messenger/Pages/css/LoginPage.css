@@ -47,12 +47,19 @@
 
   .Button {
     position: relative;
+    display: inline;
     padding: 8px 65px;
     border-radius: 10px;
     box-sizing: border-box;
     background-color: #25A558;
     user-select: none;
     cursor: pointer;
+
+    color: white;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
   }
 
   .Button:hover {
