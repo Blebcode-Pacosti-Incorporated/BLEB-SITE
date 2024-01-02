@@ -1,6 +1,6 @@
 import './App.css';
 
-import Messanger from './messanger/Messanger.js';
+import Messenger from './messenger/Messenger.js';
 import MainSite from './main/MainSite.js';
 
 function App() {
@@ -8,11 +8,10 @@ function App() {
   return (
     <>
       <DomenRoute domain={domen} element={<MainSite />} />
-      <DomenRoute domain={"messanger." + domen} element={<Messanger />} />
+      <DomenRoute domain={"messenger." + domen} element={<Messenger />} />
     </>
   );
 }
-
 
 function DomenRoute ({ domain, element }) {
   const subdomain = window.location.host.replace('.ru', '');
