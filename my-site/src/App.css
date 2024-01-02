@@ -8,10 +8,4 @@
   width: 100vw;
   min-height: 100vh;
   overflow: hidden auto;
-  font-family: 'Nunito', sans-serif;
-}
-
-@font-face {
-  font-family: 'Nunito';
-  src: url('https://fonts.googleapis.com/css?family=Nunito');
 }
