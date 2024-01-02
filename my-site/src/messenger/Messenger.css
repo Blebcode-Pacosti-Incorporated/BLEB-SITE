@@ -7,3 +7,16 @@
     overflow: hidden;
     background: linear-gradient(180deg, var(--color-primary), var(--color-primary) 50%, var(--color-secondary) 50%);
 }
+
+.Messenger::before {
+    content: attr(data-name);
+    color: var(--color-secondary);
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+
+    position: absolute;
+    top: 1em;
+    left: 5em;
+}
