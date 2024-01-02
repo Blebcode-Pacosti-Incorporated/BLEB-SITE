@@ -19,3 +19,28 @@
     line-height: normal;
     margin: 19px 0;
 }
+
+.Input {
+    border-radius: 10px;
+    border: 0.5px solid black;
+    background: #D0CFCF;
+    width: 400px;
+    padding: 11px 21px;
+    box-sizing: border-box;
+    outline: none;
+    
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+  .Input:not(:empty)::before {
+    display: none;
+  }
+  .Input:focus {
+    border: 1.5px solid black;
+  }
+  .Input::before {
+    content: attr(placeholder);
+    color: #A9A9A9;
+  }
