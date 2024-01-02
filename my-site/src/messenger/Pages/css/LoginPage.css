@@ -70,3 +70,21 @@
   .Button:active {
     filter: brightness(0.95);
   }
+
+  .Divider {
+    width: 100%;
+    height: 0.5px;
+    background-color: black;
+    margin-bottom: 12px;
+  }
+  linkpad {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .Link {
+    cursor: pointer;
+    user-select: none;
+    color: 
+  }
