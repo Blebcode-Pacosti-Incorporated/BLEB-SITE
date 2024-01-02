@@ -7,6 +7,7 @@ import RegisterPage from "./RegisterPage";
 import ForgotPage from "./ForgotPage";
 
 export default function Messenger () {
+    console.log("HUY")
     return (
         <div className="Messenger">
             <BrowserRouter>
