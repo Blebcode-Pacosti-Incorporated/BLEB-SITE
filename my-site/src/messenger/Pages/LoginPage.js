@@ -10,8 +10,8 @@ export default function LoginPage () {
             <center><div className='Button'>Войти</div></center>
             <div className='Divider' />
             <linkpad>
-                <Link>Забыли пароль?</Link>
-                <Link>Регистрация</Link>
+                <Link href="/forgot-password">Забыли пароль?</Link>
+                <Link href="/register">Регистрация</Link>
             </linkpad>
         </div>
     )
