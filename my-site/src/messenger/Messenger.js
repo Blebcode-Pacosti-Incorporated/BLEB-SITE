@@ -1,5 +1,9 @@
+import 'Messenger.css';
+
 export default function Messenger () {
     return (
-        <h1>Messenger</h1>
+        <div className="Messenger">
+            
+        </div>
     )
 }
