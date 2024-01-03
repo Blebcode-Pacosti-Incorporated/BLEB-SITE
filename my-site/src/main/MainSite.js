@@ -4,7 +4,7 @@ export default function MainSite () {
     <>
         <h1>Сайтик Глеба Блебовича</h1>
         <hr></hr>
-        <a href="messenger.exp-of-betrayal">Будущий месенджер</a>
+        <a href="https://messenger.exp-of-betrayal">Будущий месенджер</a>
     </>
     )
 }
